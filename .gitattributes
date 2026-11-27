@@ -1,0 +1,4 @@
+raw/**/*.json filter=lfs diff=lfs merge=lfs -text
+raw/**/*.jsonl filter=lfs diff=lfs merge=lfs -text
+raw/**/*.f64 filter=lfs diff=lfs merge=lfs -text
+raw/**/*.npz filter=lfs diff=lfs merge=lfs -text
