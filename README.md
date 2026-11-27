@@ -1,5 +1,7 @@
 # Paper A: L001 research archive
 
+**Migration pending: GitHub LFS rejected the first data batch because the account exceeded its LFS budget. This remote currently contains the manifest and verification tool, not the complete archive. Do not use it as a replacement for the existing Paper A pipeline yet.**
+
 Complete frozen L001 experiment archive and associated processed manifest/result index extracted from the public Paper A pipeline at commit `d92f2b75724ca77a335beafdb4ad49b4fd7f494c`.
 
 ## Contents and scope
