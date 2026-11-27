@@ -1,6 +1,5 @@
 # Paper A: L001 research archive
 
-**Migration pending: GitHub LFS rejected the first data batch because the account exceeded its LFS budget. This remote currently contains the manifest and verification tool, not the complete archive. Do not use it as a replacement for the existing Paper A pipeline yet.**
 
 Complete frozen L001 experiment archive and associated processed manifest/result index extracted from the public Paper A pipeline at commit `d92f2b75724ca77a335beafdb4ad49b4fd7f494c`.
 
@@ -33,3 +32,7 @@ git -C datasets/l001-research-data lfs pull
 The pipeline retains compatibility links at `data/raw/l001` and `data/processed/l001`, preserving source-index and result references. Pipeline documentation and orchestration remain in the parent repository. For those paths, use the initialized pipeline checkout; this standalone archive retains original references rather than rewriting historical evidence.
 
 Large numerical records use Git LFS. Original published pipeline history is not rewritten by this extraction, and no historical LFS objects are pruned automatically.
+
+## Migration verification
+
+On 27 November 2026, all 27 data batches were uploaded and retrieved into a fresh checkout using its own Git LFS cache. Linux verification passed for all 19,416 raw files (14,040,303,990 bytes), and the processed manifest/result files and verifier matched the original pipeline. This establishes archive identity and retrieval, not a new scientific computation.
